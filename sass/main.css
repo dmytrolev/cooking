@@ -1,0 +1,13 @@
+body {
+  margin: 0; }
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.recipe {
+  margin: 0;
+  padding: 0; }
+  .recipe img {
+    width: 100%;
+    height: 100%; }

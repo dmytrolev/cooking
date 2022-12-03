@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16mm"
+   height="16mm"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="butter.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="32mm"
+     inkscape:zoom="1"
+     inkscape:cx="35.5"
+     inkscape:cy="33.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     scale-x="1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Шар 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#93f5f5;fill-opacity:1;stroke:none;stroke-width:0.05"
+       id="rect35"
+       width="14.412263"
+       height="8"
+       x="0.84797001"
+       y="3.933284" />
+    <rect
+       style="fill:#7eb4f5;fill-opacity:1;stroke:none;stroke-width:0.05"
+       id="rect16131"
+       width="2.4777527"
+       height="8"
+       x="12.78248"
+       y="3.933284" />
+    <rect
+       style="fill:#7eb4f5;fill-opacity:1;stroke:none;stroke-width:0.05"
+       id="rect14479"
+       width="1.2388766"
+       height="8"
+       x="0.84797001"
+       y="3.891988" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.05"
+       id="rect35-0"
+       width="14.412263"
+       height="8"
+       x="0.84797096"
+       y="3.933285" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="1.4182161"
+       y="9.5540543"
+       id="text6895"><tspan
+         sodipodi:role="line"
+         id="tspan6893"
+         style="font-size:3.175px;stroke-width:0.132291"
+         x="1.4182161"
+         y="9.5540543">МАСЛО</tspan></text>
+    <path
+       style="fill:none;stroke:#2d50a7;stroke-width:0.132291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 12.782481,3.9332843 1.19758,2.197581 v 5.7753337"
+       id="path16337" />
+    <path
+       style="fill:none;stroke:#2d50a7;stroke-width:0.132291px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 15.260234,3.9332853 -1.280173,2.19758"
+       id="path16339" />
+  </g>
+</svg>

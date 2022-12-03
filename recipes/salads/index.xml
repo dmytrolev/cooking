@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Салати on Мій новий кулінарний сайт</title>
+    <link>/recipes/salads/</link>
+    <description>Recent content in Салати on Мій новий кулінарний сайт</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>uk</language>
+    
+	<atom:link href="/recipes/salads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>greek-salad</title>
+      <link>/recipes/salads/greek-salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recipes/salads/greek-salad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surimi-sticks-salad</title>
+      <link>/recipes/salads/surimi-sticks-salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recipes/salads/surimi-sticks-salad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vinaigrette-salad</title>
+      <link>/recipes/salads/vinaigrette-salad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recipes/salads/vinaigrette-salad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Салат Цезар</title>
+      <link>/recipes/salads/caesar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recipes/salads/caesar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
