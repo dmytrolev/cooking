@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Основні страви on Мій новий кулінарний сайт</title>
-    <link>/mains/</link>
+    <link>https://dmytrolev.github.io/cooking/mains/</link>
     <description>Recent content in Основні страви on Мій новий кулінарний сайт</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     
-	<atom:link href="/mains/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dmytrolev.github.io/cooking/mains/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

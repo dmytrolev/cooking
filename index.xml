@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Very Main Page on Мій новий кулінарний сайт</title>
-    <link>/</link>
+    <link>https://dmytrolev.github.io/cooking/</link>
     <description>Recent content in The Very Main Page on Мій новий кулінарний сайт</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dmytrolev.github.io/cooking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>borscht</title>
-      <link>/recipes/soups/borscht/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/soups/borscht/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/soups/borscht/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/soups/borscht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>greek-salad</title>
-      <link>/recipes/salads/greek-salad/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/salads/greek-salad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/salads/greek-salad/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/salads/greek-salad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pepper-soup</title>
-      <link>/recipes/soups/pepper-soup/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/soups/pepper-soup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/soups/pepper-soup/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/soups/pepper-soup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sample</title>
-      <link>/sample/</link>
+      <link>https://dmytrolev.github.io/cooking/sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/sample/</guid>
+      <guid>https://dmytrolev.github.io/cooking/sample/</guid>
       <description>sample</description>
     </item>
     
     <item>
       <title>surimi-sticks-salad</title>
-      <link>/recipes/salads/surimi-sticks-salad/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/salads/surimi-sticks-salad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/salads/surimi-sticks-salad/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/salads/surimi-sticks-salad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tom-kha-gai</title>
-      <link>/recipes/soups/tom-kha-gai/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/soups/tom-kha-gai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/soups/tom-kha-gai/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/soups/tom-kha-gai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tomato-creamsoup</title>
-      <link>/recipes/soups/tomato-creamsoup/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/soups/tomato-creamsoup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/soups/tomato-creamsoup/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/soups/tomato-creamsoup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vinaigrette-salad</title>
-      <link>/recipes/salads/vinaigrette-salad/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/salads/vinaigrette-salad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/salads/vinaigrette-salad/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/salads/vinaigrette-salad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Банановий хліб</title>
-      <link>/recipes/deserts/banana-bread/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/banana-bread/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/banana-bread/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/banana-bread/</guid>
       <description>Банановий хліб</description>
     </item>
     
     <item>
       <title>Кроленята Претцелі</title>
-      <link>/recipes/deserts/bunny-pretzels/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/bunny-pretzels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/bunny-pretzels/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/bunny-pretzels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Налисники</title>
-      <link>/recipes/deserts/crepes/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/crepes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/crepes/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/crepes/</guid>
       <description> налисники  </description>
     </item>
     
     <item>
       <title>Пенкейки або оладки</title>
-      <link>/recipes/deserts/pancakes/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/pancakes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/pancakes/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/pancakes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Салат Цезар</title>
-      <link>/recipes/salads/caesar/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/salads/caesar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/salads/caesar/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/salads/caesar/</guid>
       <description></description>
     </item>
     

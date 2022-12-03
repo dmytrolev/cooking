@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Десерти on Мій новий кулінарний сайт</title>
-    <link>/recipes/deserts/</link>
+    <link>https://dmytrolev.github.io/cooking/recipes/deserts/</link>
     <description>Recent content in Десерти on Мій новий кулінарний сайт</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>uk</language>
     
-	<atom:link href="/recipes/deserts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dmytrolev.github.io/cooking/recipes/deserts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Банановий хліб</title>
-      <link>/recipes/deserts/banana-bread/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/banana-bread/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/banana-bread/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/banana-bread/</guid>
       <description>Банановий хліб</description>
     </item>
     
     <item>
       <title>Кроленята Претцелі</title>
-      <link>/recipes/deserts/bunny-pretzels/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/bunny-pretzels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/bunny-pretzels/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/bunny-pretzels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Налисники</title>
-      <link>/recipes/deserts/crepes/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/crepes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/crepes/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/crepes/</guid>
       <description> налисники  </description>
     </item>
     
     <item>
       <title>Пенкейки або оладки</title>
-      <link>/recipes/deserts/pancakes/</link>
+      <link>https://dmytrolev.github.io/cooking/recipes/deserts/pancakes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/recipes/deserts/pancakes/</guid>
+      <guid>https://dmytrolev.github.io/cooking/recipes/deserts/pancakes/</guid>
       <description></description>
     </item>
     
