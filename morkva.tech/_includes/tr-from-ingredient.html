@@ -1,0 +1,39 @@
+<tr>
+  <td class="ingredient-amount-col">
+    {%- if ingredient.amount == 0.25 -%}
+      ¼
+    {%- elsif ingredient.amount == 0.5 -%}
+      ½
+    {%- elsif ingredient.amount == 0.75 -%}
+      ¾
+    {%- else -%}
+      {{ ingredient.amount }}
+    {%- endif %} {% case ingredient.measure -%}
+{%- when "count" -%}
+шт
+{%- when "weight" -%}
+г
+{%- when "table-spoon" -%}
+столових ложок
+{%- when "tee-spoon" -%}
+чайних ложок
+{%- when "pinch" -%}
+щіпки
+{%- when "litre" -%}
+мл
+{%- when "cup" -%}
+чашки
+{%- when "envelope" -%}
+пачки
+{%- when "sheets" -%}
+листків
+{%- when "stick" -%}
+палички
+{%- when "bunch" -%}
+пучків
+{%- when "sprig" -%}
+гілочок
+{%- endcase -%}
+  </td>
+  <td class="ingredient-title-col">{{ site.data.ingredients[ingredient.name].title }}{% include help.html page=ingredient.name %}</td>
+</tr>

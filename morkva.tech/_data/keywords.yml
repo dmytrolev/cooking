@@ -1,0 +1,32 @@
+# What can be used in general keywords
+# Next keywords are important for building diet according to The Eatwell Guide
+vegitable:
+  title: овочі
+fruit:
+  title: фрукти
+carbohydrate:
+  title: вуглеводи
+starchy:
+  title: крохмаль
+# Next keywords are used in lists and categories
+# The main difference between vegi and no-meat is presence of eggs, cheese or milk
+vegi:
+  title: вегетаріанське
+no-meat:
+  title: без м'яса
+# Special cases
+budget:
+  title: бюджетне
+quick:
+  title: швидке
+bake:
+  title: випічка
+christmas:
+  title: різдвяне
+mild:
+  title: лагідне
+# спец-катеогорії
+spicy:
+  title: пряне
+hot:
+  title: гостре

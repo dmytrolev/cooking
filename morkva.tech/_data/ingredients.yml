@@ -1,0 +1,184 @@
+rice:
+  title: рису
+egg:
+  title: яєць
+butter:
+  title: вершкового масла
+cream:
+  title: вершків
+garlic:
+  title: зубчиків часнику
+majoran:
+  title: майорану
+flour:
+  title: борошна
+oregano:
+  title: орегано
+sweet-paprika:
+  title: порошку солодкої паприки
+bouillon:
+  title: бульйону
+thymian:
+  title: тим'ян
+tomato:
+  title: томатів
+tomato-paste:
+  title: томатої пасти
+cherry-tomato:
+  title: томатів чері
+dried-tomato-paste:
+  title: пасти з висушених томатів
+onion:
+  title: цибулин
+red-onion:
+  title: червоних цибулин
+salt:
+  title: солі
+milk:
+  title: молока
+potato:
+  title: картоплі
+mustard-seeds:
+  title: зернин гірчиці
+mustard:
+  title: гірчиці
+olive-oil:
+  title: оливкової олії
+curry-powder:
+  title: каррі
+green-chili:
+  title: зеленого чілі
+red-chili:
+  title: червоного чілі
+cumin:
+  title: зерен кумину
+ginger:
+  title: імбир
+carrot:
+  title: моркви
+bay-leaf:
+  title: лаврового листка
+black-pepper-corn:
+  title: ядриць чорного перцю
+mushroom:
+  title: грибів
+shiitake-mushroom:
+  title: грибів шиїтаке
+water:
+  title: води
+cabbage:
+  title: капусти
+black-papper:
+  title: чорний перець
+wheat-berry:
+  title: пшениці
+poppy-seed:
+  title: маку
+honey:
+  title: меду
+walnut:
+  title: грецьких горіхів
+raisin:
+  title: родзинок
+yeast:
+  title: дріжжі
+sugar:
+  title: цукру
+veal_tail:
+  title: телячих хвостів
+parmesan:
+  title: пармезану
+fresh-basilik:
+  title: свіжого базиліку
+pine-nuts:
+  title: кедрових горішків
+nori:
+  title: листя норі
+salmon:
+  title: сьомги
+tuna:
+  title: тунець
+mayonnaise:
+  title: майонезу
+cucumber:
+  title: огірок
+mascarpone:
+  title: сиру маскарпоне
+rice-acid:
+  title: рисовий оцет
+soy-souce:
+  title: соєвий соус
+banana:
+  title: бананів
+chia:
+  title: насіння чіа
+vanilla:
+  title: ваніліну
+soda:
+  title: соди
+baking-powder:
+  title: розпушувач
+beer:
+  title: пиво
+greek-yoghurt:
+  title: грецький йогурт
+coconut-milk:
+  title: кокосового молока
+fish-souce:
+  title: рибного соусу
+lemongrass:
+  title: лимонної трави
+chicken-breast:
+  title: курячої грудки
+surimi-sticks:
+  title: крабових паличок
+green-pea:
+  title: зеленого горошку
+feta:
+  title: сиру фєта
+lemon-juice:
+  title: лимонного соку
+white-wine-winegar:
+  title: оцту з білого вина
+red-wine-winegar:
+  title: оцту з червоного вина
+white-wine:
+  title: білого вина
+lattuce-leaves:
+  title: листя салату
+bread:
+  title: хлібу
+yellow-pepper:
+  title: жовтої паприки
+red-pepper:
+  title: червоної паприки
+black-olive:
+  title: чорних оливок
+beetroot:
+  title: червого буряка
+pee:
+  title: зеленого горошку
+pickled-cabbage:
+  title: квашеної капусти
+pickled-cucumber:
+  title: квашених огірків
+parsley:
+  title: петрушки
+black-bean:
+  title: чорних бобів
+sweet-potato:
+  title: батату
+nutmeg:
+  title: мускатного горіху
+thyme:
+  title: тім'яну
+cottage-cheese:
+  title: творогу
+mozzarella:
+  title: сиру моцарела
+ricotta:
+  title: сиру рікота
+pasta:
+  title: пасти
+dukkah:
+  title: дукки

@@ -1,0 +1,20 @@
+---
+layout: base
+title: Здоров'я
+hero:
+  dir: /assets/h
+  subdir: m
+---
+
+<h1 class="title">{{page.title}}</h1>
+
+<p class="content">Більшість статей - переклади зі статей з авторитетних
+  сайтів, які дають відповіді на популярні запитання. На прикінці кожної статті
+  дається посилання на оригінал.</p>
+
+<div class="list">
+  {% include knowledge-card.html title="the-eatwell-guide" %}
+  {% include knowledge-card.html title="stay-active-at-home" %}
+  {% include knowledge-card.html title="5-steps-to-mental-wellbeing" %}
+  {% include knowledge-card.html title="how-black-and-white-thinking-hurts-you" %}
+</div>

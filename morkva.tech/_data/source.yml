@@ -1,0 +1,45 @@
+# recipe websites and chefs
+gordon:
+  title: Гордон Ремзі
+  website: Gordon Ramsay
+  website-url: http://www.youtube.com/gordonramsay
+fooby:
+  title: Fooby
+  website: Fooby.ch
+  website-url: https://fooby.ch/
+migusto:
+  title: Migusto
+  website: Migusto.ch
+  website-url: https://migusto.migros.ch/
+gutekueche:
+  title: GuteKueche
+  website: GuteKueche.ch
+  website-url: https://www.gutekueche.ch/
+flexitarian:
+  title: Flexitarian
+  website: The Flexitarian
+  website-url: https://theflexitarian.co.uk/
+jamie-oliver:
+  title: Jamie Oliver
+  website: Jamie Oliver
+  website-url: https://www.youtube.com/channel/UCpSgg_ECBj25s9moCDfSTsA
+
+# knowledge and information
+nhs:
+  title: NHS
+  website: NHS
+  website-url: https://www.nhs.uk/
+healthline:
+  title: healthline
+  website: healthline
+  website-url: https://www.healthline.com/
+who-eu:
+  title: World Health Organization | Europe
+  website: World Health Organization | Europe
+  website-url: https://www.euro.who.int/en/home
+
+# random sources
+coraya:
+  title: Coraya
+  website: Coraya
+  website-url: https://www.coraya.ch/

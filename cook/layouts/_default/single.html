@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+
+  {{- .Content -}}
+
+  <ul>
+  {{ range .Params.ingredients }}
+    <li>{{- .name -}} - {{- .amount }} {{- .measure -}}
+  {{ end }}
+  </ul>
+
+  {{ if .Params.sources }}
+  <h2>Ресурси</h2>
+  <ul>
+  {{ range .Params.sources }}
+    <li><a href="{{ .url }}">{{ .title }}</a> - {{ .desc }}<br />
+  {{ end }}
+  {{ end }}
+{{ end }}

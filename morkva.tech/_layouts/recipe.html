@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"/>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{%- for keyword in page.keywords -%}
+      {{keyword}}{% if forloop.last == false %},{% endif %}{% endfor -%}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:type" content="food">
+    <meta property="og:image" content="{{ site.url }}/{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/small-hero.jpg">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:site_name" content="morkva.tech">
+    {% include recipe.json %}
+    {% include styles.html file="recipe.css" %}
+    {% include analytics.html %}
+  </head>
+  <body>
+    {% include menu.html %}
+    {% include hero-image.html dir=site.photos.recipe subdir=page.image_name %}
+    <div class="recipe-article">
+    <h1 class="title">{{ page.title }}</h1>
+    <!-- <div class="total-time-line">{% include icons/clock.html size=22 %} {{ page.time.total }} хв.</div> -->
+    <div class="recipe-content">{{ content }}</div>
+    <div class="recipe-keywords">
+      <!-- {%- include icons/info.html size=16 -%} -->
+      <!-- {%- for keyword in page.keywords.general -%} -->
+      <!--   {{ site.data.keywords[keyword].title }}{% if forloop.last == false %},{% endif %}{% endfor %} -->
+    </div>
+    <div class="recipe-actions">
+      <!-- <a class="share" href="javascript:alert('wait!')">{%- include icons/comments.html size=22 -%}</a> -->
+      <!-- <a class="comments" href="javascript:alert('wait!')">{%- include icons/share.html size=22 -%}</a> -->
+    </div>
+    <div class="recipe-content">
+      <div class="recipe-ingredients">
+        <h2>Інгредієнти</h2><table class="recipe-ingredients-table">{% for ingredient in page.ingredients %}
+      {% include tr-from-ingredient.html ingredient=ingredient %}{% endfor %}</table>
+      </div>
+      <div class="all-steps">
+        <h2>Інструкція</h2>{% for section in page.sections %}
+          <div class="recipe-section">
+            <h3 class="section-title">{{ section.title }}{% if section.help_page %}{% include help.html page=section.help_page %}{% endif %}</h3>
+            <p>{% for step in section.steps %}{{ step }} {% endfor %}</p>
+          </div>{% endfor %}
+        </ul>
+        {% if page.original -%}
+          {% include original.html original=page.original %}
+        {%- endif -%}
+      </div>
+    </div>
+    </div>
+    {% include bon-appetit.html %}
+    {% include footer.html %}
+    <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/scripts/menu.js"></script>
+  </body>
+</html>

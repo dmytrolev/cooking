@@ -1,0 +1,23 @@
+ul.do {
+    border: solid 1px green;
+    list-style-type: none;
+    li:before {
+        content: '\2611';
+        color: green;
+        font-weight: bold;
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+}
+
+ul.dont {
+    border: solid 1px red;
+    list-style-type: none;
+    li:before {
+        content: '\2612';
+        color: red;
+        font-weight: bold;
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+}

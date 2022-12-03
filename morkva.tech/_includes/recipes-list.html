@@ -1,0 +1,5 @@
+<div class="list">
+  {%- for recipe in include.recipes -%}
+    {%- include recipe-card.html recipe=recipe -%}
+  {%- endfor -%}
+</div>

@@ -1,0 +1,26 @@
+{{ include.ingredient.amount }} {% case include.ingredient.measure -%}
+{%- when "count" -%}
+шт
+{%- when "weight" -%}
+г
+{%- when "table-spoon" -%}
+столових ложок
+{%- when "tee-spoon" -%}
+чайних ложок
+{%- when "pinch" -%}
+щіпки
+{%- when "litre" -%}
+мл
+{%- when "cup" -%}
+чашки
+{%- when "envelope" -%}
+пачки
+{%- when "sheets" -%}
+листків
+{%- when "bunch" -%}
+пучків
+{%- when "stick" -%}
+палички
+{%- when "sprig" -%}
+гілочок
+{%- endcase %} {{ site.data.ingredients[include.ingredient.name].title -}}

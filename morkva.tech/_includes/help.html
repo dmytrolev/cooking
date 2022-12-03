@@ -1,0 +1,4 @@
+{%- assign knowledge = site.knowledge | where: "slug", include.page | first -%}
+{%- if knowledge -%}
+  <a class="help" href="{{ site.url }}{{ site.baseurl }}{{ knowledge.url }}">{% include icons/help.html size=16 %}</a>
+{%- endif -%}

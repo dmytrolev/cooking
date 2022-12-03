@@ -1,0 +1,18 @@
+soup:
+  title: "Суп"
+appetizer:
+  title: "Аперитив"
+salad:
+  title: "Салат"
+bread:
+  title: "Хліб"
+drink:
+  title: "Напій"
+dessert:
+  title: "Десерт"
+main_dish:
+  title: "Основна страва"
+sauce:
+  title: "Соус"
+side_dish:
+  title: "Закуска"

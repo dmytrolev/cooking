@@ -1,0 +1,5 @@
+---
+title: Vegi
+---
+
+Vegi category.

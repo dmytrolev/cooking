@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ partial "site-style.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  </head>
+  <body>
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    <div class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+  </body>
+</html>

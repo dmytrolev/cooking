@@ -1,0 +1,9 @@
+{% assign data = site.knowledge | where: "slug", include.title | first -%}
+<div class="knowledge-card card">
+  <a class="" href="{{ site.url }}/{{ site.baseurl }}{{data.url}}">
+    <img src="{{ site.url }}/{{ site.baseurl }}{{ site.photos.knowledge }}/{{ data.image_name }}/1x1.jpg" />
+    <div class="card-description">
+      <h3 class="title">{{ data.title }}</h3>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,136 @@
+// Shared elements of all the pages. Includes:
+// * fonts
+// * menu
+// * hero images
+// * article parts: title, content
+// * cards
+// See more includes in the bottom.
+
+$menu-height: 53px;
+$menu-font-size: 36px;
+$menu-width: 240px;
+
+@font-face {
+    font-family: Amatic SC;
+    font-display: swap;
+    style: bold;
+    src: url($url + $baseurl + "/assets/fonts/AmaticSC-Bold.ttf");
+}
+
+@font-face {
+    font-family: Comfortaa;
+    font-display: swap;
+    src: url($url + $baseurl + "/assets/fonts/Comfortaa-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+////
+// General styles used on every page.
+////
+
+.hero {
+  width: 100%;
+}
+
+
+// Use for all the titles.
+@mixin title-font {
+    font-family: Amatic SC, sans-serif;
+}
+
+// Use for content or different blocks of text.
+@mixin content-font {
+    font-family: Comfortaa, sans-serif;
+}
+
+// Use for actionable, button-like text.
+@mixin action-font {
+    font-family: Amatic SC;
+}
+
+@mixin title {
+    @include title-font;
+    text-align: center;
+}
+
+@import "menu";
+@import "menu-desktop";
+
+h1.title {
+    @include title;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+
+h2.title {
+    @include title;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h3.title {
+    @include title;
+    font-size: 2rem;
+}
+
+@mixin content {
+    @include content-font;
+    text-align: justify;
+}
+
+.content {
+    @include content;
+}
+
+// Use article whenever there is a content which should not spawn for huge width.
+// This will pack data in the middle, nice for reading and navigating.
+.article {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+  &.no-hero {
+      padding-top: $menu-height;
+  }
+}
+
+.recipe-article {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+  &.no-hero {
+      padding-top: $menu-height;
+  }
+}
+
+// Thanks for reading! Place it after main content part to split it from
+// recommended further reading.
+.bon-appetit {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 36px;
+    padding-top: 12px;
+    padding-bottom: 26px;
+    clear: left;
+}
+
+@import "cards";
+@import "cards-desktop";
+
+@import "icons";
+
+.help {
+    width: 16px;
+    padding-left: 6px;
+    margin-bottom: -2px;
+}
+
+@import "footer";
+
+@import "shared-desktop";

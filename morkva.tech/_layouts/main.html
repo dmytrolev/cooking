@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"/>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:site_name" content="morkva.tech">
+    <link rel="stylesheet" href="{{ site.url }}/{{ site.baseurl }}/css/main.css" defer />
+    {% include analytics.html %}
+  </head>
+  <body>
+    {% include menu.html %}
+    <picture>
+      <source class="hero" src="{{ site.url }}/{{ site.baseurl }}assets/small-main-hero.jpg" media="(max-width:768px)" />
+      <img class="hero" src="{{ site.url }}/{{ site.baseurl }}assets/main-hero.jpg" />
+    </picture>
+    <div class="list">
+    {% for chapter in page.chapters %}
+      {% assign data = site.chapters | where: "slug", chapter | first %}
+      <div class="card chapter-card">
+        <a class="" href="{{ site.url }}{{ site.baseurl }}{{data.url}}">
+          <img src="{{ site.url }}/{{ site.baseurl }}{{ site.photos.chapter }}/{{ data.image_name }}/1x1.jpg" />
+          <h3 class="title">{{ data.title-short }}</h3>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+    <div class="article">
+      <div class="content">{{ content }}</div>
+    </div>
+    {% include bon-appetit.html %}
+    {% include footer.html %}
+    <script type="text/javascript" src="{{ site.url }}/{{ site.baseurl }}scripts/menu.js"></script>
+  </body>
+</html>

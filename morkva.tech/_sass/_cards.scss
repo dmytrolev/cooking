@@ -1,0 +1,85 @@
+.list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card {
+    a {
+      text-decoration: none;
+      &:visited, &:link {
+          color: black;
+      }
+      &:hover {
+          h3 {
+              color: blue;
+          }
+      }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.chapter-card {
+    display: inline-block;
+    text-align: center;
+    img {
+        width: 113px;
+        border-radius: 100%;
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.recipe-card {
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  h3.title {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 90px;
+  }
+  .info {
+    @include content-font;
+  }
+  .total-time {
+    @include content-font;
+    margin-bottom: 15px;
+  }
+}
+
+.knowledge-card {
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  h3.title {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .recipe-card {
+    width: calc(50% - 15px);
+    margin-left: -0.25rem;
+    padding-left: 15px;
+    display: inline-block;
+  }
+
+  .knowledge-card {
+    width: calc(50% - 15px);
+    margin-left: -0.25rem;
+    padding-left: 15px;
+    display: inline-block;
+  }
+}

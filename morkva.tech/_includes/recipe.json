@@ -1,0 +1,35 @@
+<script type="application/ld+json">{
+  "@context":"https://schema.org/",
+  "@type":"Recipe",
+  "name":"{{page.title}}",
+  "description":"{{page.description}}",
+  "author":{
+    "@type":"Person",
+    "name":"{{page.author}}"
+  },
+  "keywords":"{%- for keyword in page.keywords -%}
+    {{keyword}}{% if forloop.last == false %},{% endif %}{% endfor -%}",
+  "image":[
+    "{{ site.url }}/{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/1x1.jpg",
+    "{{ site.url }}/{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/4x3.jpg",
+    "{{ site.url }}/{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/16x9.jpg"],
+  "url":"{{ site.url }}/{{ site.baseurl }}recipes/{{ page.image_name }}.html",
+  "recipeIngredient":[
+    {% for ingredient in page.ingredients -%}
+    "{% include text-from-ingredient.html ingredient=ingredient %}"{%- if forloop.last == false %},
+    {% endif %}{% endfor %}],
+  "recipeInstructions": [
+    {% for section in page.sections -%}{
+      "@type":"HowToSection",
+      "name": "{{section.title}}",
+      "itemListElement": [
+        {% for step in section.steps -%}{
+          "@type": "HowToStep",
+          "text": "{{ step }}"
+        }{%- if forloop.last == false %},
+        {% endif %}{% endfor %}
+      ]
+    }{%- if forloop.last == false %},
+    {% endif %}{% endfor %}
+  ]
+}</script>

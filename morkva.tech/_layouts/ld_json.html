@@ -1,0 +1,65 @@
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "{{ page.title }}",
+      "image": [
+      "{{ site.url }}{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/1x1.jpg",
+      "{{ site.url }}{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/4x3.jpg",
+      "{{ site.url }}{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/16x9.jpg"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.author }}"
+      },
+      "datePublished": "2018-03-10",
+      "description": "{{ page.description }}",
+      "prepTime": "PT{{ page.time.prep }}M",
+      "cookTime": "PT{{ page.time.cook }}M",
+      "totalTime": "PT{{ page.time.total }}M",
+      "keywords": "
+        {%- for keyword in page.keywords.general -%}
+        {{ site.data.keywords[keyword].title }}{% if forloop.last == false %},{% endif %}{% endfor %}",
+      "recipeYield": "10",
+      "recipeCategory": "{{ page.keywords.category }}",
+      "recipeCuisine": "{{ page.keywords.cuisine }}",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "{{ page.calories}} calories"
+      },
+      "recipeIngredient": [{% for ingredient in page.ingredients %}
+        "{% include text-from-ingredient.html ingredient=ingredient %}"{% if forloop.last == false %},{% endif %}{% endfor %}
+      ],
+      "recipeInstructions": [{% for section in page.sections %}
+        {
+          "@type": "HowToSection",
+          "name": "{{ section.title }}",
+          "itemListElement": [{% for step in section.steps %}
+            {
+              "@type": "HowToStep",
+              "text": "{{ step }}"
+            }{% if forloop.last == false %},{% endif %}{% endfor %}
+          ]
+        }{% if forloop.last == false %},{% endif %}{% endfor %}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context":"https://schema.org",
+        "@type":"ItemList",
+        "itemListElement":[
+        {% for chapter in page.chapters -%}
+          {%- assign data = site.chapter | where: "slug", recipe | first -%}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "url": "{{ site.url }}{{ site.baseurl }}{{ data.url }}"
+          }{% if forloop.last == false %},{% endif %}
+        {%- endfor %}
+        ]
+      }
+    }
+    </script>
+

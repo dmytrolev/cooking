@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  a.menu-button {
+    display: none;
+  }
+
+  .menu {
+      left: 0px;
+      ul {
+          width: auto;
+          margin: 0;
+      }
+      ul.main-menu > li {
+          display: table-cell;
+          a {
+              display: inline-block;
+          }
+          &.over {
+              ul {
+                  display: block;
+                  top: $menu-height;
+                  background-color: rgba(255, 255, 255, 0.85);
+                  a {
+                      margin-right: 20px;
+                  }
+              }
+          }
+      }
+  }
+  .submenu {
+    position: absolute;
+  }
+}

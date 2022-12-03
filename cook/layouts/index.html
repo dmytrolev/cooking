@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+
+  {{- .Content -}}
+
+  <div class="recipes">
+    {{ with .Site.GetPage "recipes" }}
+      {{ range .Sections }} {{/* deserts, mains, salads, etc. */}}
+        {{ range .Pages }} {{/* pancakes, vinegret, borscht, etc. */}}
+    <div class="recipe">
+    <a href="{{ .Permalink }}">
+          <img src="{{ (.Resources.GetMatch "banner").Permalink }}"></img>
+    </a>
+    </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

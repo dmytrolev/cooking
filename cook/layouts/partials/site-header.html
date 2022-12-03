@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ .Site.Home.Permalink }}">{{ .Site.Title }}</a>
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+      </a>
+      <div class="trigger">
+        {{ with .Site.GetPage "basics" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "theory" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "connect" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "construction" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "digital" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "displays" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "mcs" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ with .Site.GetPage "sensors" }}<a class="page-link" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+      </div>
+    </nav>
+  </div>
+</header>

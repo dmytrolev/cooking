@@ -1,0 +1,28 @@
+email: ldimat@gmail.com
+description: >-
+  Готуємо смачну їжу. Вивчаємо тонкоші використання інгредієнтів. Кожен день пробуємо щось нове.
+baseurl: "" # the subpath of your site, e.g. blog/
+url: "https://morkva.tech" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+photos:
+  recipe: "assets/recipe"
+  chapter: "assets/chapters"
+  knowledge: "assets/knowledge"
+
+# Website structure. Simple posts will represent Blog, and contain random engaging infomrmation.
+collections:
+  # Main contents of the website.
+  recipes:
+    output: true
+  # Lists of recipes. For example: soups, or sauces and christmas ideas or child food.
+  chapters:
+    output: true
+  # Knowledge base. Describes separate ingredients, cooking approaches, and other things.
+  knowledge:
+    output: true
+
+# Build settings
+markdown: kramdown
+theme: minima

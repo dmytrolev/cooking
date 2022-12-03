@@ -1,0 +1,20 @@
+{%- assign ukrainian = site.chapters | where: "slug", "ukrainian" | first -%}
+
+{%- assign the_eatwell_guide = site.knowledge | where: "slug", "the-eatwell-guide" | first -%}
+<header>
+  <a id="menu-button" class="menu-button" href="#">{% include icons/menu.html size=26 %}</a>
+  <nav class="menu">
+    <ul class="main-menu">
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}">Рецепти</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/theory.html">Кулінарна теорія</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/health.html">Здоров'я</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div id="menu-blanket" class="blanket"></div>

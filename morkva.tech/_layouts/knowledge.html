@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width"/>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{%- for keyword in page.keywords -%}
+      {{keyword}}{% if forloop.last == false %},{% endif %}{% endfor -%}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.photos.recipe }}/{{ page.image_name }}/1x1.jpg">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:site_name" content="morkva.tech">
+    <link rel="stylesheet" href="/css/knowledge.css" async />
+    {% include analytics.html %}
+  </head>
+  <body>
+    {% include menu.html %}
+    {% unless page.no_hero -%}
+    {% include hero-image.html dir=site.photos.knowledge subdir=page.image_name %}
+    <div class="article">
+    {% else -%}
+    <div class="article no-hero">
+    {%- endunless %}
+      <h1 class="title">{{ page.title }}</h1>
+      <div class="content">{{ content }}</div>
+      {% if page.original -%}
+        {% include original.html original=page.original %}
+      {%- endif -%}
+    </div>
+    {% include bon-appetit.html %}
+    {% include footer.html %}
+    <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/scripts/menu.js"></script>
+  </body>
+</html>
