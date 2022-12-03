@@ -1,2 +1,3 @@
 languageCode = "uk"
 title = "Мій новий кулінарний сайт"
+baseURL = "https://dmytrolev.github.io/cooking/"
