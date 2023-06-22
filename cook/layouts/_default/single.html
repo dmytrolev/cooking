@@ -5,9 +5,16 @@
 
   <ul>
   {{ range .Params.ingredients }}
-    <li>{{- .name -}} - {{- .amount }} {{- .measure -}}
+    <li>{{ (index $.Site.Data.ingredients .name).name }} - {{- .amount }} {{- .measure -}}
   {{ end }}
   </ul>
+
+  <ul>{{ range .Params.sections }}
+    <li> {{- .title -}}:
+      <ul>{{ range .steps }}
+        <li>{{- . -}}
+      {{ end }}</ul>
+  {{ end }}</ul>
 
   {{ if .Params.sources }}
   <h2>Ресурси</h2>
