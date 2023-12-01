@@ -1,3 +1,8 @@
 languageCode = "uk"
 baseURL = "https://dmytrolev.github.io/cooking/"
-defaulContentLanguage = 'uk'
+defaultContentLanguage = 'uk'
+[languages]
+  [languages.uk]
+    disabled = false
+  [languages.en]
+    disabled = false

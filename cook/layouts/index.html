@@ -7,11 +7,14 @@
     {{ with .Site.GetPage "recipes" }}
       {{ range .Sections }} {{/* deserts, mains, salads, etc. */}}
         {{ range .Pages }} {{/* pancakes, vinegret, borscht, etc. */}}
-    <div class="recipe">
-    <a href="{{ .Permalink }}">
-          <img src="{{ (.Resources.GetMatch "banner").Permalink }}"></img>
-    </a>
-    </div>
+        {{ $image := .Resources.GetMatch "banner.jpg" }}
+          {{ if $image }}
+            <div class="recipe">
+              <a href="{{ .Permalink }}">
+                <img src="{{ $image.Permalink }}"></img>
+              </a>
+            </div>
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}

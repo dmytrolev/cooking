@@ -1,13 +1,29 @@
 {{ define "main" }}
   <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
 
+  {{ $image := .Resources.GetMatch "banner.jpg" }}
+  {{ with $image }}
+    <img src="{{ .RelPermalink }}">
+  {{ end }}
+
+
   {{- .Content -}}
 
-  <ul>
-  {{ range .Params.ingredients }}
-    <li>{{ (index $.Site.Data.ingredients .name).name }} - {{- .amount }} {{- .measure -}}
-  {{ end }}
-  </ul>
+  {{ .Parent.File.ContentBaseName }} :: {{ .File.ContentBaseName }}
+
+  {{ if .Parent.File }}
+
+    <ul>
+      {{ $group := index .Site.Data .Parent.File.ContentBaseName }}
+      {{ if $group }}
+        {{ range (index $group .File.ContentBaseName).ingredients }}
+          {{/* (i18n (index $.Site.Data.ingredients .name).name) */}}
+          <li>{{ (i18n .name) }} - {{- .amount }} {{- .measure -}}
+        {{ end }}
+      {{ end }}
+    </ul>
+
+  {{ end}}
 
   <ul>{{ range .Params.sections }}
     <li> {{- .title -}}:
