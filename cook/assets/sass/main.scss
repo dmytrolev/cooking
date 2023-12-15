@@ -17,4 +17,15 @@ body {
     text-align: center;
 }
 
+.step {
+    position: relative;
+    display: inline-block;
+    ul {
+        position: absolute;
+        bottom: 0;
+        background-color: #ffffff99;
+        width: 100%;
+    }
+}
+
 @import "desktop";

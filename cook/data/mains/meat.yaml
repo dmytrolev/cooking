@@ -1,0 +1,10 @@
+ingredients:
+  - name: butter
+    amount: 50
+    measure: weight
+  - name: garlic
+    amount: 2
+    measure: count
+  - name: majoran
+    amount: 2
+    measure: pinch

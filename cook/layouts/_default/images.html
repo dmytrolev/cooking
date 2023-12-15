@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+
+  {{ $images := .Resources.Match "step-*.jpg" }}
+  {{ range $ind, $image := $images }}
+  <div class="step">
+    <img style="width: 200px" src="{{ $image.RelPermalink }}">
+    {{ if (eq $ind 0) }}
+
+        <ul>
+        {{ $group := index $.Site.Data $.Page.Parent.File.ContentBaseName }}
+        {{ if $group }}
+            {{ range (index $group $.Page.File.ContentBaseName).ingredients }}
+            {{/* (i18n (index $.Site.Data.ingredients .name).name) */}}
+            <li>{{ (i18n .name) }} - {{- .amount }} {{- .measure -}}
+            {{ end }}
+        {{ end }}
+        </ul>
+
+    {{ end }}
+  </div>
+  {{ end }}
+
+
+  {{- .Content -}}
+
+{{ end }}
